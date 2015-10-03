@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 03 Oct 2015 15:42:14 -0500</pubDate>
-    <lastBuildDate>Sat, 03 Oct 2015 15:42:14 -0500</lastBuildDate>
+    <title>Advanced HTML/CSS</title>
+    <description></description>
+    <link>http://kaylalewis.github.io/advancedhtmlcss/</link>
+    <atom:link href="http://kaylalewis.github.io/advancedhtmlcss/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 03 Oct 2015 16:35:52 -0500</pubDate>
+    <lastBuildDate>Sat, 03 Oct 2015 16:35:52 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -17,8 +16,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Sun, 06 Dec 2015 00:00:00 -0600</pubDate>
-        <link>http://yourdomain.com/2015/12/06/week10.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2015/12/06/week10.html</guid>
+        <link>http://kaylalewis.github.io/advancedhtmlcss/2015/12/06/week10.html</link>
+        <guid isPermaLink="true">http://kaylalewis.github.io/advancedhtmlcss/2015/12/06/week10.html</guid>
         
         
       </item>
@@ -30,8 +29,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Sun, 29 Nov 2015 00:00:00 -0600</pubDate>
-        <link>http://yourdomain.com/2015/11/29/week9.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2015/11/29/week9.html</guid>
+        <link>http://kaylalewis.github.io/advancedhtmlcss/2015/11/29/week9.html</link>
+        <guid isPermaLink="true">http://kaylalewis.github.io/advancedhtmlcss/2015/11/29/week9.html</guid>
         
         
       </item>
@@ -43,8 +42,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Sun, 22 Nov 2015 00:00:00 -0600</pubDate>
-        <link>http://yourdomain.com/2015/11/22/week8.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2015/11/22/week8.html</guid>
+        <link>http://kaylalewis.github.io/advancedhtmlcss/2015/11/22/week8.html</link>
+        <guid isPermaLink="true">http://kaylalewis.github.io/advancedhtmlcss/2015/11/22/week8.html</guid>
         
         
       </item>
@@ -56,8 +55,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Sun, 15 Nov 2015 00:00:00 -0600</pubDate>
-        <link>http://yourdomain.com/2015/11/15/week7.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2015/11/15/week7.html</guid>
+        <link>http://kaylalewis.github.io/advancedhtmlcss/2015/11/15/week7.html</link>
+        <guid isPermaLink="true">http://kaylalewis.github.io/advancedhtmlcss/2015/11/15/week7.html</guid>
         
         
       </item>
@@ -69,8 +68,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Sun, 08 Nov 2015 00:00:00 -0600</pubDate>
-        <link>http://yourdomain.com/2015/11/08/week6.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2015/11/08/week6.html</guid>
+        <link>http://kaylalewis.github.io/advancedhtmlcss/2015/11/08/week6.html</link>
+        <guid isPermaLink="true">http://kaylalewis.github.io/advancedhtmlcss/2015/11/08/week6.html</guid>
         
         
       </item>
@@ -82,8 +81,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Sun, 01 Nov 2015 00:00:00 -0500</pubDate>
-        <link>http://yourdomain.com/2015/11/01/week5.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2015/11/01/week5.html</guid>
+        <link>http://kaylalewis.github.io/advancedhtmlcss/2015/11/01/week5.html</link>
+        <guid isPermaLink="true">http://kaylalewis.github.io/advancedhtmlcss/2015/11/01/week5.html</guid>
         
         
       </item>
@@ -95,8 +94,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Sun, 25 Oct 2015 00:00:00 -0500</pubDate>
-        <link>http://yourdomain.com/2015/10/25/week4.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2015/10/25/week4.html</guid>
+        <link>http://kaylalewis.github.io/advancedhtmlcss/2015/10/25/week4.html</link>
+        <guid isPermaLink="true">http://kaylalewis.github.io/advancedhtmlcss/2015/10/25/week4.html</guid>
         
         
       </item>
@@ -108,8 +107,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Sat, 17 Oct 2015 00:00:00 -0500</pubDate>
-        <link>http://yourdomain.com/2015/10/17/week3.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2015/10/17/week3.html</guid>
+        <link>http://kaylalewis.github.io/advancedhtmlcss/2015/10/17/week3.html</link>
+        <guid isPermaLink="true">http://kaylalewis.github.io/advancedhtmlcss/2015/10/17/week3.html</guid>
         
         
       </item>
@@ -121,8 +120,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Sat, 10 Oct 2015 00:00:00 -0500</pubDate>
-        <link>http://yourdomain.com/2015/10/10/week2.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2015/10/10/week2.html</guid>
+        <link>http://kaylalewis.github.io/advancedhtmlcss/2015/10/10/week2.html</link>
+        <guid isPermaLink="true">http://kaylalewis.github.io/advancedhtmlcss/2015/10/10/week2.html</guid>
         
         
       </item>
@@ -197,8 +196,8 @@ h1 {
 
 </description>
         <pubDate>Sat, 03 Oct 2015 00:00:00 -0500</pubDate>
-        <link>http://yourdomain.com/2015/10/03/week1.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2015/10/03/week1.html</guid>
+        <link>http://kaylalewis.github.io/advancedhtmlcss/2015/10/03/week1.html</link>
+        <guid isPermaLink="true">http://kaylalewis.github.io/advancedhtmlcss/2015/10/03/week1.html</guid>
         
         
       </item>
