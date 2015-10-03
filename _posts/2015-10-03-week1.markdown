@@ -1,0 +1,76 @@
+---
+layout: post
+title:  "Week 1"
+subtitle: "Syllabus and Refresher HTML/CSS"
+---
+
+<div id = "week1"></div>
+
+#### Basic HTML/CSS Structure
+HTML Page
+
+	<html>
+	<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="main.css">
+	</head>
+	<body>
+	<header>
+	<h1>My Website</h1>
+	</header>
+	<article>
+	<h2>Subtitle</h2>
+	<p>Content goes here.</p>
+	<article>
+	<footer><h4>@2014</h4>
+	</footer>
+	<script src="main.js"></script>
+	<body>
+	</html>
+
+CSS Page
+
+	body {
+
+		padding: 10px;
+		margin: 0 15%
+	}
+
+	h1 {
+
+		color: "#e0e0e0"
+	}
+
+
+<br><br>  
+
+#### HTML5 vs. older versions  
+
+
+#### CSS3 vs. older versions  
+
+  
+
+<br><br> 
+
+#### Exercise
+Build a simple website, include these files within a folder: 
+
+* index.html file
+* folder titled "images"
+* folder titled "style" with a "main.css" file within
+* folder titled "javascript" with a "main.js" file within
+* three additional .html pages in the root folder 
+
+<br> 
+
+Build out the basic structure for each page before you worry about styling the page. Once you've included content, begin adding style. Note inheritance and how CSS maps to the HTML elements. Use properties like margin, padding, font-size, color, background-color, width, etc. Remember units like %, em, and px.
+
+
+<br>
+
+
+*Challenge–write the least redundant, most concise HTML/CSS possible (e.g. try and avoid divs, use the same CSS for multiple components, etc.)*
+
+
+

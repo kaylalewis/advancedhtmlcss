@@ -1,0 +1,69 @@
+---
+layout: default
+---
+<div id="fix">
+<div id="top">
+  <h1>Advanced HTML and CSS</h1>
+  <div class="col-md-6">112 Michigan Avenue<br>Room 917<br>Sundays 10:00-1:00</div>
+  <div class="col-md-6">October 4-December 13, 2015<br>Kayla Lewis<br>klewis6@artic.edu</div>
+</div>
+
+
+  <ul id="navList">Week
+    <li><a href = "#week1">1</a></li>
+    <li><a href = "#week2">2</a></li>
+    <li><a href = "#week3">3</a></li>
+    <li><a href = "#week4">4</a></li>
+    <li><a href = "#week5">5</a></li>
+    <li><a href = "#week6">6</a></li>
+    <li><a href = "#week7">7</a></li>
+    <li><a href = "#week8">8</a></li>
+    <li><a href = "#week9">9</a></li>
+    <li><a href = "#week10">10</a></li>
+  </ul>
+
+</div>
+
+
+<div class = "content">
+<article>
+<h2>About</h2>
+<p>This course focuses on a single large-scale web project created by the instructor over the course of 10 weeks. Through this exercise, students learn how to adapt skills they have learned to real life web projects. Class lectures and demonstrations introduce students to HTML 5 and CSS3, which students are encouraged to incorporate into their projects. Peer feedback through critiques and discussions are central to this hybrid studio/lecture course.</p>
+<a href="syllabus.zip" target="_blank">Download the syllabus</a>
+</article>
+
+<article>
+<h2>Resources</h2>
+<div class="col-md-6">
+<h4>Technical</h4>
+<ul>
+  <li><a href = "https://developer.mozilla.org/en-US/docs/Web/HTML">Mozilla Developer Network</li>
+  <li><a href="http://www.w3schools.com/tags/default.asp">W3 HTML Reference</a></li>
+  <li></li>
+</ul>
+</div>
+<div class="col-md-6">
+<h4>Inspirational</h4>
+<ul>
+  <li><a href="http://www.dangersoffracking.com">Dangers of Fracking</a></li>
+  <li><a href = "http://derekboateng.com">Derek Boateng</a></li>
+</ul>
+</div>
+<div></div>
+</article>
+<div class="fill"></div>
+<article>
+  <ul><h2>Schedule</h2>
+    {% for post in site.posts reversed %}
+      <li>
+
+        <h2>
+          {{ post.title }}
+        </h2>
+        <h3>{{ post.subtitle }}</h3>
+        <div class= "post">{{ post.content }}</div>
+      </li>
+    {% endfor %}
+  </ul>
+</article>
+</div>

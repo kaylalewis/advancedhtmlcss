@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Your awesome title</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 03 Oct 2015 15:42:14 -0500</pubDate>
+    <lastBuildDate>Sat, 03 Oct 2015 15:42:14 -0500</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Week 10</title>
+        <description>&lt;div id=&quot;week10&quot;&gt;
+
+&lt;/div&gt;
+</description>
+        <pubDate>Sun, 06 Dec 2015 00:00:00 -0600</pubDate>
+        <link>http://yourdomain.com/2015/12/06/week10.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/12/06/week10.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Week 9</title>
+        <description>&lt;div id=&quot;week9&quot;&gt;
+
+&lt;/div&gt;
+</description>
+        <pubDate>Sun, 29 Nov 2015 00:00:00 -0600</pubDate>
+        <link>http://yourdomain.com/2015/11/29/week9.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/11/29/week9.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Week 8</title>
+        <description>&lt;div id=&quot;week8&quot;&gt;
+
+&lt;/div&gt;
+</description>
+        <pubDate>Sun, 22 Nov 2015 00:00:00 -0600</pubDate>
+        <link>http://yourdomain.com/2015/11/22/week8.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/11/22/week8.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Week 7</title>
+        <description>&lt;div id=&quot;week7&quot;&gt;
+
+&lt;/div&gt;
+</description>
+        <pubDate>Sun, 15 Nov 2015 00:00:00 -0600</pubDate>
+        <link>http://yourdomain.com/2015/11/15/week7.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/11/15/week7.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Week 6</title>
+        <description>&lt;div id=&quot;week6&quot;&gt;
+
+&lt;/div&gt;
+</description>
+        <pubDate>Sun, 08 Nov 2015 00:00:00 -0600</pubDate>
+        <link>http://yourdomain.com/2015/11/08/week6.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/11/08/week6.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Week 5</title>
+        <description>&lt;div id=&quot;week5&quot;&gt;
+
+&lt;/div&gt;
+</description>
+        <pubDate>Sun, 01 Nov 2015 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/2015/11/01/week5.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/11/01/week5.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Week 4</title>
+        <description>&lt;div id=&quot;week4&quot;&gt;
+
+&lt;/div&gt;
+</description>
+        <pubDate>Sun, 25 Oct 2015 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/2015/10/25/week4.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/10/25/week4.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Week 3</title>
+        <description>&lt;div id=&quot;week3&quot;&gt;
+
+&lt;/div&gt;
+</description>
+        <pubDate>Sat, 17 Oct 2015 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/2015/10/17/week3.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/10/17/week3.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Week 2</title>
+        <description>&lt;div id=&quot;week2&quot;&gt;
+
+&lt;/div&gt;
+</description>
+        <pubDate>Sat, 10 Oct 2015 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/2015/10/10/week2.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/10/10/week2.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Week 1</title>
+        <description>&lt;div id=&quot;week1&quot;&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;basic-htmlcss-structure&quot;&gt;Basic HTML/CSS Structure&lt;/h4&gt;
+&lt;p&gt;HTML Page&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;html&amp;gt;
+&amp;lt;head&amp;gt;
+&amp;lt;meta charset=&quot;utf-8&quot;&amp;gt;
+&amp;lt;link rel=&quot;stylesheet&quot; href=&quot;main.css&quot;&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+&amp;lt;header&amp;gt;
+&amp;lt;h1&amp;gt;My Website&amp;lt;/h1&amp;gt;
+&amp;lt;/header&amp;gt;
+&amp;lt;article&amp;gt;
+&amp;lt;h2&amp;gt;Subtitle&amp;lt;/h2&amp;gt;
+&amp;lt;p&amp;gt;Content goes here.&amp;lt;/p&amp;gt;
+&amp;lt;article&amp;gt;
+&amp;lt;footer&amp;gt;&amp;lt;h4&amp;gt;@2014&amp;lt;/h4&amp;gt;
+&amp;lt;/footer&amp;gt;
+&amp;lt;script src=&quot;main.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;CSS Page&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;body {
+
+	padding: 10px;
+	margin: 0 15%
+}
+
+h1 {
+
+	color: &quot;#e0e0e0&quot;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;  &lt;/p&gt;
+
+&lt;h4 id=&quot;html5-vs-older-versions&quot;&gt;HTML5 vs. older versions&lt;/h4&gt;
+
+&lt;h4 id=&quot;css3-vs-older-versions&quot;&gt;CSS3 vs. older versions&lt;/h4&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt; &lt;/p&gt;
+
+&lt;h4 id=&quot;exercise&quot;&gt;Exercise&lt;/h4&gt;
+&lt;p&gt;Build a simple website, include these files within a folder: &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;index.html file&lt;/li&gt;
+  &lt;li&gt;folder titled “images”&lt;/li&gt;
+  &lt;li&gt;folder titled “style” with a “main.css” file within&lt;/li&gt;
+  &lt;li&gt;folder titled “javascript” with a “main.js” file within&lt;/li&gt;
+  &lt;li&gt;three additional .html pages in the root folder &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt; &lt;/p&gt;
+
+&lt;p&gt;Build out the basic structure for each page before you worry about styling the page. Once you’ve included content, begin adding style. Note inheritance and how CSS maps to the HTML elements. Use properties like margin, padding, font-size, color, background-color, width, etc. Remember units like %, em, and px.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Challenge–write the least redundant, most concise HTML/CSS possible (e.g. try and avoid divs, use the same CSS for multiple components, etc.)&lt;/em&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 03 Oct 2015 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/2015/10/03/week1.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/10/03/week1.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

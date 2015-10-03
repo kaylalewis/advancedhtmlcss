@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Advanced HTML/CSS</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Abel|Oxygen:400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/main.css">
+
+</head>
+
+
+  <body>
+
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Week 1</h1>
+    <p class="post-meta">Oct 3, 2015</p>
+  </header>
+
+  <article class="post-content">
+    <div id="week1"></div>
+
+<h4 id="basic-htmlcss-structure">Basic HTML/CSS Structure</h4>
+<p>HTML Page</p>
+
+<pre><code>&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;link rel="stylesheet" href="main.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;header&gt;
+&lt;h1&gt;My Website&lt;/h1&gt;
+&lt;/header&gt;
+&lt;article&gt;
+&lt;h2&gt;Subtitle&lt;/h2&gt;
+&lt;p&gt;Content goes here.&lt;/p&gt;
+&lt;article&gt;
+&lt;footer&gt;&lt;h4&gt;@2014&lt;/h4&gt;
+&lt;/footer&gt;
+&lt;script src="main.js"&gt;&lt;/script&gt;
+&lt;body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p>CSS Page</p>
+
+<pre><code>body {
+
+	padding: 10px;
+	margin: 0 15%
+}
+
+h1 {
+
+	color: "#e0e0e0"
+}
+</code></pre>
+
+<p><br /><br />  </p>
+
+<h4 id="html5-vs-older-versions">HTML5 vs. older versions</h4>
+
+<h4 id="css3-vs-older-versions">CSS3 vs. older versions</h4>
+
+<p><br /><br /> </p>
+
+<h4 id="exercise">Exercise</h4>
+<p>Build a simple website, include these files within a folder: </p>
+
+<ul>
+  <li>index.html file</li>
+  <li>folder titled “images”</li>
+  <li>folder titled “style” with a “main.css” file within</li>
+  <li>folder titled “javascript” with a “main.js” file within</li>
+  <li>three additional .html pages in the root folder </li>
+</ul>
+
+<p><br /> </p>
+
+<p>Build out the basic structure for each page before you worry about styling the page. Once you’ve included content, begin adding style. Note inheritance and how CSS maps to the HTML elements. Use properties like margin, padding, font-size, color, background-color, width, etc. Remember units like %, em, and px.</p>
+
+<p><br /></p>
+
+<p><em>Challenge–write the least redundant, most concise HTML/CSS possible (e.g. try and avoid divs, use the same CSS for multiple components, etc.)</em></p>
+
+
+  </article>
+
+</div>
+
+
+
+    <footer>
+
+
+</footer>
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script>
+  $(window).scroll(function () {
+    if ($(window).scrollTop() > 200) {
+        $('#scroller').css('top', $(window).scrollTop());
+    }
+}
+);
+  </script>
+
+
+  </body>
+
+</html>
