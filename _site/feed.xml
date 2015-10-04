@@ -5,13 +5,13 @@
     <description></description>
     <link>http://kaylalewis.github.io/advancedhtmlcss/</link>
     <atom:link href="http://kaylalewis.github.io/advancedhtmlcss/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 03 Oct 2015 16:35:52 -0500</pubDate>
-    <lastBuildDate>Sat, 03 Oct 2015 16:35:52 -0500</lastBuildDate>
+    <pubDate>Sun, 04 Oct 2015 07:38:38 -0500</pubDate>
+    <lastBuildDate>Sun, 04 Oct 2015 07:38:38 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>Week 10</title>
-        <description>&lt;div id=&quot;week10&quot;&gt;
+        <description>&lt;div id=&quot;week10&quot; class=&quot;anchor&quot;&gt;
 
 &lt;/div&gt;
 </description>
@@ -24,7 +24,7 @@
     
       <item>
         <title>Week 9</title>
-        <description>&lt;div id=&quot;week9&quot;&gt;
+        <description>&lt;div id=&quot;week9&quot; class=&quot;anchor&quot;&gt;
 
 &lt;/div&gt;
 </description>
@@ -37,7 +37,7 @@
     
       <item>
         <title>Week 8</title>
-        <description>&lt;div id=&quot;week8&quot;&gt;
+        <description>&lt;div id=&quot;week8&quot; class=&quot;anchor&quot;&gt;
 
 &lt;/div&gt;
 </description>
@@ -50,7 +50,7 @@
     
       <item>
         <title>Week 7</title>
-        <description>&lt;div id=&quot;week7&quot;&gt;
+        <description>&lt;div id=&quot;week7&quot; class=&quot;anchor&quot;&gt;
 
 &lt;/div&gt;
 </description>
@@ -63,7 +63,7 @@
     
       <item>
         <title>Week 6</title>
-        <description>&lt;div id=&quot;week6&quot;&gt;
+        <description>&lt;div id=&quot;week6&quot; class=&quot;anchor&quot;&gt;
 
 &lt;/div&gt;
 </description>
@@ -76,7 +76,7 @@
     
       <item>
         <title>Week 5</title>
-        <description>&lt;div id=&quot;week5&quot;&gt;
+        <description>&lt;div id=&quot;week5&quot; class=&quot;anchor&quot;&gt;
 
 &lt;/div&gt;
 </description>
@@ -89,7 +89,7 @@
     
       <item>
         <title>Week 4</title>
-        <description>&lt;div id=&quot;week4&quot;&gt;
+        <description>&lt;div id=&quot;week4&quot; class=&quot;anchor&quot;&gt;
 
 &lt;/div&gt;
 </description>
@@ -102,7 +102,7 @@
     
       <item>
         <title>Week 3</title>
-        <description>&lt;div id=&quot;week3&quot;&gt;
+        <description>&lt;div id=&quot;week3&quot; class=&quot;anchor&quot;&gt;
 
 &lt;/div&gt;
 </description>
@@ -115,7 +115,7 @@
     
       <item>
         <title>Week 2</title>
-        <description>&lt;div id=&quot;week2&quot;&gt;
+        <description>&lt;div id=&quot;week2&quot; class=&quot;anchor&quot;&gt;
 
 &lt;/div&gt;
 </description>
@@ -128,12 +128,12 @@
     
       <item>
         <title>Week 1</title>
-        <description>&lt;div id=&quot;week1&quot;&gt;&lt;/div&gt;
+        <description>&lt;div id=&quot;week1&quot; class=&quot;anchor&quot;&gt;&lt;/div&gt;
 
 &lt;h4 id=&quot;basic-htmlcss-structure&quot;&gt;Basic HTML/CSS Structure&lt;/h4&gt;
 &lt;p&gt;HTML Page&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;lt;html&amp;gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
 &amp;lt;head&amp;gt;
 &amp;lt;meta charset=&quot;utf-8&quot;&amp;gt;
 &amp;lt;link rel=&quot;stylesheet&quot; href=&quot;main.css&quot;&amp;gt;
@@ -149,7 +149,7 @@
 &amp;lt;footer&amp;gt;&amp;lt;h4&amp;gt;@2014&amp;lt;/h4&amp;gt;
 &amp;lt;/footer&amp;gt;
 &amp;lt;script src=&quot;main.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
-&amp;lt;body&amp;gt;
+&amp;lt;/body&amp;gt;
 &amp;lt;/html&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
@@ -167,11 +167,39 @@ h1 {
 }
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;dom--document-object-model&quot;&gt;DOM = Document Object Model&lt;/h4&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;html5-vs-older-versions&quot;&gt;HTML5 vs. older versions&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;New elements: header, section, footer, aside, nav, main, article, figure&lt;/li&gt;
+  &lt;li&gt;Canvas&lt;/li&gt;
+  &lt;li&gt;SVG&lt;/li&gt;
+  &lt;li&gt;Audio&lt;/li&gt;
+  &lt;li&gt;Video&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;css3-vs-older-versions&quot;&gt;CSS3 vs. older versions&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Vendor-prefixed properties
+    &lt;ul&gt;
+      &lt;li&gt;-moz-property -webkit-property&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Columns&lt;/li&gt;
+  &lt;li&gt;Animations (keyframes, looping)&lt;/li&gt;
+  &lt;li&gt;Transitions (triggered, JavaScript)&lt;/li&gt;
+  &lt;li&gt;Rounded corners&lt;/li&gt;
+  &lt;li&gt;Shadows&lt;/li&gt;
+  &lt;li&gt;Font-face&lt;/li&gt;
+  &lt;li&gt;Etc. &lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt; &lt;/p&gt;
 

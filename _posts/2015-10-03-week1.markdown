@@ -4,12 +4,12 @@ title:  "Week 1"
 subtitle: "Syllabus and Refresher HTML/CSS"
 ---
 
-<div id = "week1"></div>
+<div id = "week1" class = "anchor"></div>
 
 #### Basic HTML/CSS Structure
 HTML Page
 
-	<html>
+	<!DOCTYPE html>
 	<head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="main.css">
@@ -25,7 +25,7 @@ HTML Page
 	<footer><h4>@2014</h4>
 	</footer>
 	<script src="main.js"></script>
-	<body>
+	</body>
 	</html>
 
 CSS Page
@@ -42,12 +42,32 @@ CSS Page
 	}
 
 
-<br><br>  
+<br><br>
+
+#### DOM = Document Object Model 
+
+<br>
 
 #### HTML5 vs. older versions  
+* New elements: header, section, footer, aside, nav, main, article, figure
+* Canvas
+* SVG
+* Audio
+* Video
 
+<br>
 
-#### CSS3 vs. older versions  
+#### CSS3 vs. older versions
+
+* Vendor-prefixed properties
+	* -moz-property -webkit-property
+* Columns
+* Animations (keyframes, looping)
+* Transitions (triggered, JavaScript)
+* Rounded corners
+* Shadows
+* Font-face
+* Etc. 
 
   
 

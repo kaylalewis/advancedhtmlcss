@@ -56,7 +56,7 @@ ul#navList li a:active {
 	color: blue;
 }
 
-.content {
+section {
 z-index: -1;
 margin-top: 280px;
 position: relative;
@@ -120,6 +120,12 @@ article {
 	height: 100px
 }
 
+.anchor {
+	position: relative;
+	top: -330px;
+
+}
+
 @media screen and (max-width: 990px) {
     ul#navList {
 
@@ -164,7 +170,7 @@ article {
 </div>
 
 
-<div class = "content">
+<section>
 <article>
 <h2>About</h2>
 <p>This course focuses on a single large-scale web project created by the instructor over the course of 10 weeks. Through this exercise, students learn how to adapt skills they have learned to real life web projects. Class lectures and demonstrations introduce students to HTML 5 and CSS3, which students are encouraged to incorporate into their projects. Peer feedback through critiques and discussions are central to this hybrid studio/lecture course.</p>
@@ -178,6 +184,7 @@ article {
 <ul>
   <li><a href = "https://developer.mozilla.org/en-US/docs/Web/HTML">Mozilla Developer Network</li>
   <li><a href="http://www.w3schools.com/tags/default.asp">W3 HTML Reference</a></li>
+  <li><a href = "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction">What is the DOM?</a></li>
   <li></li>
 </ul>
 </div>
@@ -200,12 +207,12 @@ article {
           Week 1
         </h2>
         <h3>Syllabus and Refresher HTML/CSS</h3>
-        <div class= "post"><div id="week1"></div>
+        <div class= "post"><div id="week1" class="anchor"></div>
 
 <h4 id="basic-htmlcss-structure">Basic HTML/CSS Structure</h4>
 <p>HTML Page</p>
 
-<pre><code>&lt;html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;head&gt;
 &lt;meta charset="utf-8"&gt;
 &lt;link rel="stylesheet" href="main.css"&gt;
@@ -221,7 +228,7 @@ article {
 &lt;footer&gt;&lt;h4&gt;@2014&lt;/h4&gt;
 &lt;/footer&gt;
 &lt;script src="main.js"&gt;&lt;/script&gt;
-&lt;body&gt;
+&lt;/body&gt;
 &lt;/html&gt;
 </code></pre>
 
@@ -239,11 +246,39 @@ h1 {
 }
 </code></pre>
 
-<p><br /><br />  </p>
+<p><br /><br /></p>
+
+<h4 id="dom--document-object-model">DOM = Document Object Model</h4>
+
+<p><br /></p>
 
 <h4 id="html5-vs-older-versions">HTML5 vs. older versions</h4>
+<ul>
+  <li>New elements: header, section, footer, aside, nav, main, article, figure</li>
+  <li>Canvas</li>
+  <li>SVG</li>
+  <li>Audio</li>
+  <li>Video</li>
+</ul>
+
+<p><br /></p>
 
 <h4 id="css3-vs-older-versions">CSS3 vs. older versions</h4>
+
+<ul>
+  <li>Vendor-prefixed properties
+    <ul>
+      <li>-moz-property -webkit-property</li>
+    </ul>
+  </li>
+  <li>Columns</li>
+  <li>Animations (keyframes, looping)</li>
+  <li>Transitions (triggered, JavaScript)</li>
+  <li>Rounded corners</li>
+  <li>Shadows</li>
+  <li>Font-face</li>
+  <li>Etc. </li>
+</ul>
 
 <p><br /><br /> </p>
 
@@ -275,7 +310,7 @@ h1 {
           Week 2
         </h2>
         <h3>Advanced Syntax: CSS selectors and inheritance & HTML sections, articles, code blocks</h3>
-        <div class= "post"><div id="week2">
+        <div class= "post"><div id="week2" class="anchor">
 
 </div>
 </div>
@@ -287,7 +322,7 @@ h1 {
           Week 3
         </h2>
         <h3>CSS Transitions and Animations</h3>
-        <div class= "post"><div id="week3">
+        <div class= "post"><div id="week3" class="anchor">
 
 </div>
 </div>
@@ -299,7 +334,7 @@ h1 {
           Week 4
         </h2>
         <h3>Responsive websites: Media queries, platforms, building dynamic grids, CSS frameworks</h3>
-        <div class= "post"><div id="week4">
+        <div class= "post"><div id="week4" class="anchor">
 
 </div>
 </div>
@@ -311,7 +346,7 @@ h1 {
           Week 5
         </h2>
         <h3>Designing usable forms: Form structure and types of fields, intro to jQuery</h3>
-        <div class= "post"><div id="week5">
+        <div class= "post"><div id="week5" class="anchor">
 
 </div>
 </div>
@@ -323,7 +358,7 @@ h1 {
           Week 6
         </h2>
         <h3>Using jQuery for visuals: HTML canvas, parallax and carousel effects</h3>
-        <div class= "post"><div id="week6">
+        <div class= "post"><div id="week6" class="anchor">
 
 </div>
 </div>
@@ -335,7 +370,7 @@ h1 {
           Week 7
         </h2>
         <h3>Intro to Javascript: Using Javascript to build forward and back buttons, “on click” actions</h3>
-        <div class= "post"><div id="week7">
+        <div class= "post"><div id="week7" class="anchor">
 
 </div>
 </div>
@@ -347,7 +382,7 @@ h1 {
           Week 8
         </h2>
         <h3>Data and how to use it: Data visualization, using external data, APIs</h3>
-        <div class= "post"><div id="week8">
+        <div class= "post"><div id="week8" class="anchor">
 
 </div>
 </div>
@@ -359,7 +394,7 @@ h1 {
           Week 9
         </h2>
         <h3>Tying it all together: SEO, hosting, CMS, deploying site to web</h3>
-        <div class= "post"><div id="week9">
+        <div class= "post"><div id="week9" class="anchor">
 
 </div>
 </div>
@@ -371,7 +406,7 @@ h1 {
           Week 10
         </h2>
         <h3>Final Critique</h3>
-        <div class= "post"><div id="week10">
+        <div class= "post"><div id="week10" class="anchor">
 
 </div>
 </div>
@@ -379,7 +414,7 @@ h1 {
     
   </ul>
 </article>
-</div>
+</section>
 
 
 

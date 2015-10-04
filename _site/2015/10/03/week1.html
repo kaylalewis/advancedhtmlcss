@@ -56,7 +56,7 @@ ul#navList li a:active {
 	color: blue;
 }
 
-.content {
+section {
 z-index: -1;
 margin-top: 280px;
 position: relative;
@@ -120,6 +120,12 @@ article {
 	height: 100px
 }
 
+.anchor {
+	position: relative;
+	top: -330px;
+
+}
+
 @media screen and (max-width: 990px) {
     ul#navList {
 
@@ -148,12 +154,12 @@ article {
   </header>
 
   <article class="post-content">
-    <div id="week1"></div>
+    <div id="week1" class="anchor"></div>
 
 <h4 id="basic-htmlcss-structure">Basic HTML/CSS Structure</h4>
 <p>HTML Page</p>
 
-<pre><code>&lt;html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;head&gt;
 &lt;meta charset="utf-8"&gt;
 &lt;link rel="stylesheet" href="main.css"&gt;
@@ -169,7 +175,7 @@ article {
 &lt;footer&gt;&lt;h4&gt;@2014&lt;/h4&gt;
 &lt;/footer&gt;
 &lt;script src="main.js"&gt;&lt;/script&gt;
-&lt;body&gt;
+&lt;/body&gt;
 &lt;/html&gt;
 </code></pre>
 
@@ -187,11 +193,39 @@ h1 {
 }
 </code></pre>
 
-<p><br /><br />  </p>
+<p><br /><br /></p>
+
+<h4 id="dom--document-object-model">DOM = Document Object Model</h4>
+
+<p><br /></p>
 
 <h4 id="html5-vs-older-versions">HTML5 vs. older versions</h4>
+<ul>
+  <li>New elements: header, section, footer, aside, nav, main, article, figure</li>
+  <li>Canvas</li>
+  <li>SVG</li>
+  <li>Audio</li>
+  <li>Video</li>
+</ul>
+
+<p><br /></p>
 
 <h4 id="css3-vs-older-versions">CSS3 vs. older versions</h4>
+
+<ul>
+  <li>Vendor-prefixed properties
+    <ul>
+      <li>-moz-property -webkit-property</li>
+    </ul>
+  </li>
+  <li>Columns</li>
+  <li>Animations (keyframes, looping)</li>
+  <li>Transitions (triggered, JavaScript)</li>
+  <li>Rounded corners</li>
+  <li>Shadows</li>
+  <li>Font-face</li>
+  <li>Etc. </li>
+</ul>
 
 <p><br /><br /> </p>
 
