@@ -306,8 +306,83 @@ h1 {
         </h2>
         <h3>Advanced Syntax: CSS selectors and inheritance & HTML sections, articles, code blocks</h3>
         <div class= "post"><div id="week2" class="anchor"></div>
-<p><a href="developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction">What is the DOM?</a></p>
 
+<h4 id="html-tags">HTML Tags</h4>
+<ul>
+  <li>
+    <p>Code block </p>
+
+    <pre><code>  &lt;code&gt;
+  &lt;p&gt;This will show up as code, with the p tags&lt;/p&gt;
+  &lt;/code&gt;
+</code></pre>
+  </li>
+  <li>
+    <p>Video </p>
+
+    <pre><code>  &lt;video width="800" height="600" controls&gt;
+  &lt;source src="movie.mp4" type="video/mp4"&gt;
+  Not supported in browser
+  &lt;/video&gt; 
+</code></pre>
+  </li>
+</ul>
+
+<p><br /> </p>
+
+<h4 id="css-inheritance">CSS Inheritance</h4>
+<ul>
+  <li>Depends heavily on HTML structure of page</li>
+  <li>
+    <p>Can use selectors like ids (used once) and classes (reusable):</p>
+
+    <pre><code>  &lt;p id="cat"&gt;Apply id 'cat'&lt;/p&gt;
+  &lt;p class="dog"&gt;Apply class 'dog'&lt;/p&gt;
+</code></pre>
+  </li>
+  <li>
+    <p>Goes by parent-child relationships: </p>
+
+    <pre><code>  &lt;body&gt;
+  &lt;article&gt;
+  &lt;h1&gt;Heading&lt;/h1&gt;
+  &lt;p&gt;Paragraph words.&lt;/p&gt;
+  &lt;/article&gt;
+  &lt;/body&gt; 
+</code></pre>
+  </li>
+</ul>
+
+<p>Body is the parent of article, article is the parent of heading and paragraph. Heading is the first child of article, and paragraph is the second child of article.
+<br /></p>
+
+<ul>
+  <li>Certain CSS properties don’t translate to children (e.g. padding or borders won’t auto cascade to all of the elements within the body, for obvious reasons) </li>
+</ul>
+
+<p><br /> </p>
+
+<ul>
+  <li>
+    <p>CSS gives the ability to select very specific combinations of elements. Some useful syntax includes </p>
+
+    <ul>
+      <li>div p – all p’s that are inside divs</li>
+      <li>div &gt; p – all p’s that are children of div</li>
+      <li>div, p – selects both div and p elements</li>
+      <li>p:first-child – </li>
+      <li>p:nth-child(2)</li>
+      <li>p:nth-last-child(2)</li>
+      <li>p::first-line</li>
+      <li>p:first-of-type  </li>
+    </ul>
+  </li>
+</ul>
+
+<p><br />
+Try out <a href="http://flukeout.github.io">CSS Diner</a></p>
+
+<p>Build out a web page that uses at least five of the selectors listed above. Add a video and a code block.</p>
 </div>
       </li>
     
