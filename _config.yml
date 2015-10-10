@@ -1,7 +1,6 @@
 # Site settings
-title: Advanced HTML/CSS
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://kaylalewis.github.io/advancedhtmlcss" # the base hostname & protocol for your site
-
-# Build settings
+auto:true
+destination:kaylalewis.github.io/advancedhtmlcss
+# url: http://kaylalewis.github.io/advancedhtmlcss
 markdown: kramdown
+highlighter: pygments

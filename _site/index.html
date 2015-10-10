@@ -27,7 +27,8 @@
 	background-color: #f8f8f8;
 	width: 100%;
 	margin-top: -300px;
-	padding-top: 50px
+	padding-top: 50px;
+	z-index: 500;
 }
 
 ul#navList {
@@ -56,13 +57,6 @@ ul#navList li a:active {
 	color: blue;
 }
 
-section {
-z-index: -1;
-margin-top: 280px;
-position: relative;
-
-
-}
 
 h1 {
 
@@ -110,9 +104,16 @@ ul, .col-md-6 {
 
 }
 
+a {
+	/*color: red;*/
+}
+
 article {
 
-	padding-bottom: 25px;
+padding-bottom: 25px;
+z-index: 1;
+margin-top: 280px;
+position: relative;
 }
 
 .fill {
@@ -169,20 +170,16 @@ article {
 
 </div>
 
-
-<section>
 <article>
 <h2>About</h2>
 <p>This course focuses on a single large-scale web project created by the instructor over the course of 10 weeks. Through this exercise, students learn how to adapt skills they have learned to real life web projects. Class lectures and demonstrations introduce students to HTML 5 and CSS3, which students are encouraged to incorporate into their projects. Peer feedback through critiques and discussions are central to this hybrid studio/lecture course.</p>
 <a href="syllabus.zip" target="_blank">Download the syllabus</a>
-</article>
 
-<article>
 <h2>Resources</h2>
 <div class="col-md-6">
 <h4>Technical</h4>
 <ul>
-  <li><a href = "https://developer.mozilla.org/en-US/docs/Web/HTML">Mozilla Developer Network</li>
+  <li><a href = "https://developer.mozilla.org/en-US/docs/Web/HTML">Mozilla Developer Network</a></li>
   <li><a href="http://www.w3schools.com/tags/default.asp">W3 HTML Reference</a></li>
   <li><a href = "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction">What is the DOM?</a></li>
   <li></li>
@@ -196,9 +193,7 @@ article {
 </ul>
 </div>
 <div></div>
-</article>
 <div class="fill"></div>
-<article>
   <ul><h2>Schedule</h2>
     
       <li>
@@ -310,9 +305,9 @@ h1 {
           Week 2
         </h2>
         <h3>Advanced Syntax: CSS selectors and inheritance & HTML sections, articles, code blocks</h3>
-        <div class= "post"><div id="week2" class="anchor">
+        <div class= "post"><div id="week2" class="anchor"></div>
+<p><a href="developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction">What is the DOM?</a></p>
 
-</div>
 </div>
       </li>
     
@@ -414,7 +409,8 @@ h1 {
     
   </ul>
 </article>
-</section>
+
+
 
 
 
