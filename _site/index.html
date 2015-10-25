@@ -395,8 +395,112 @@ Try out <a href="http://flukeout.github.io">CSS Diner</a></p>
         <h2>
           Week 3
         </h2>
-        <h3>CSS Transitions and Animations, intro to Sass</h3>
+        <h3>CSS Transitions and Animations and Intro to Sass</h3>
         <div class= "post"><div id="week3" class="anchor"></div>
+
+<h4 id="css-transitions-and-animations">CSS Transitions and Animations</h4>
+
+<ul>
+  <li>Many CSS properties can be animated. Common ones include colors, size, location and rotation. CSS animations and transitions are designated using vendors (e.g. -webkit-), which are callouts to specific browsers to allow for compatibility. Keep in mind that JavaScript permits more control over animation triggers and properties, but there is a ton you can do with CSS3 alone.</li>
+</ul>
+
+<p><br /></p>
+
+<ul>
+  <li>
+    <p><strong>Transitions</strong> are triggered by actions like mouse hover or click. They go from A to B, and don’t have the same capabilities to move as animations. With transitions, you can define property, duration, delay, and timing.</p>
+
+    <pre><code>  div {
+  width: 100px;
+  height: 100px;
+  background: black;
+  transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+  }
+
+  div:hover {
+  width: 300px;
+  }
+</code></pre>
+  </li>
+</ul>
+
+<p><br /></p>
+
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions">MDN Transitions</a></p>
+
+<p><br /></p>
+
+<ul>
+  <li>
+    <p><strong>Animations</strong> are not triggered by actions. They allow for flexible use of keyframes. They can also be set to loop specific amounts of time.</p>
+
+    <pre><code>  #shape {
+      width: 300px;
+      height: 200px;
+      background-color: green;
+      animation: myName 5s infinite;
+  }
+
+  @keyframes myName {
+      from {background-color: green;}
+      to {background-color: blue;}
+  }
+</code></pre>
+  </li>
+</ul>
+
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/animation">MDN Animations</a></p>
+
+<p><br /></p>
+
+<h4 id="intro-to-sass">Intro to Sass</h4>
+
+<p>Sass is a CSS preprocessor (processes into normal CSS) that allows for the use of variables and avoids redundancy and repetition in CSS. Sass allows for nesting of elements to automatically designate inheritance, allows for the use of operators, and many other things.</p>
+
+<p><a href="http://sass-lang.com/guide">Sass Documentation</a></p>
+
+<ul>
+  <li>Install sass</li>
+</ul>
+
+<ol>
+  <li>gem install sass</li>
+  <li>sass -v</li>
+  <li>cd [yoursite]</li>
+  <li>Save .scss file</li>
+  <li>sass –watch [yourfile].scss:[yourfile].css</li>
+</ol>
+
+<p><br /></p>
+
+<ul>
+  <li>
+    <p>Variables</p>
+
+    <pre><code>  $bodyFont: Tahoma, sans-serif;
+  $bodyColor: #000;
+
+  body {
+
+    font: $bodyFont;
+    color: $bodyColor;
+
+  }
+</code></pre>
+  </li>
+  <li>Nesting</li>
+  <li>Syntax</li>
+  <li>Import</li>
+  <li>Extend</li>
+</ul>
+
+<p><br />
+Additional Reference: <a href="https://css-tricks.com/examples/ShapesOfCSS/">CSS Shapes</a></p>
+
+<p>Assignment: Build a page with three animations that are “aware” of each other. Add two on-hover transitions. Use any properties and elements that you’d like.</p>
 </div>
       </li>
     
