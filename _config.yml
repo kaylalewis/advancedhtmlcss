@@ -4,3 +4,4 @@ destination:kaylalewis.github.io/advancedhtmlcss
 # url: http://kaylalewis.github.io/advancedhtmlcss
 markdown: kramdown
 highlighter: pygments
+baseurl: "/advancedhtmlcss"
