@@ -583,7 +583,7 @@ Use bootstrap to build a grid that adapts to multiple screens.
 
 <p>jQuery (whose motto is “write less, do more”) is a JavaScript library that avoids the tedious structure of JavaScript by condensing syntax and providing quick solutions to a multitude of JavaScript-related tasks.</p>
 
-<p><a href="https://jquery.com/download/">Download jQuery</a></p>
+<p><a href="http://kaylalewis.github.io/advancedhtmlcss/jquery-1.11.3.min.js.zip">Download jQuery</a></p>
 
 <p>You write jquery statements like sentences. They have a subject and actions that happen in the order they’re listed.</p>
 
@@ -614,24 +614,15 @@ Use bootstrap to build a grid that adapts to multiple screens.
 <p>Demo: Use jQuery functions to build a dynamic web page</p>
 
 <h4 id="parallax">Parallax</h4>
-<p><a href="http://kaylalewis.github.io/advancedhtmlcss/parallax.zip">Download parallax demo</a>
-<br />
-<a href="http://kaylalewis.github.io/advancedhtmlcss/parallax.js.zip">Download parallax.js</a></p>
+<p><a href="http://kaylalewis.github.io/advancedhtmlcss/parallax.js.zip">Download parallax.js</a></p>
 
 <h4 id="carousel">Carousel</h4>
-<p><a href="http://kaylalewis.github.io/advancedhtmlcss/slides.zip">Download slides demo</a>
-<br />
-<a href="http://kaylalewis.github.io/advancedhtmlcss/slides.js.zip">Download slides.js</a></p>
-</div>
-      </li>
-    
-      <li>
+<p><a href="http://kaylalewis.github.io/advancedhtmlcss/slides.js.zip">Download slides.js</a></p>
 
-        <h2>
-          Week 6
-        </h2>
-        <h3>User Input: Forms and canvas</h3>
-        <div class= "post"><div id="week6" class="anchor"></div>
+<p><a href="http://kaylalewis.github.io/advancedhtmlcss/Archive.zip">Download Parallax and Slides Demo</a>
+<br /></p>
+
+<p><a href="http://kaylalewis.github.io/advancedhtmlcss/carousel_parallax.zip">Download All demos (including jQuery)</a></p>
 </div>
       </li>
     
@@ -641,9 +632,60 @@ Use bootstrap to build a grid that adapts to multiple screens.
           Week 7
         </h2>
         <h3>User Experience: Forms and navigation</h3>
-        <div class= "post"><div id="week7" class="anchor">
+        <div class= "post"><div id="week7" class="anchor"></div>
 
-</div>
+<p>Forms come up in many websites. They can either be an easy experience for the user, or a complete nightmare.
+<br />
+Spacing, copy, and overall appearance have huge impacts on forms.
+<br /></p>
+
+<h4 id="forms">Forms</h4>
+<p>Some common input types include</p>
+
+<ul>
+  <li>Radio</li>
+  <li>Text</li>
+  <li>Button</li>
+  <li>Checkbox</li>
+  <li>Number</li>
+</ul>
+
+<p><br /></p>
+
+<p>Text areas and ‘select’ from a list of items are also used often.
+<br />
+Put elements within a form tag, including the submit button. This will allow for action once submitting the form (e.g. send to server, send to email).
+<br /><br /></p>
+
+<h4 id="navigation">Navigation</h4>
+<p>Although we’ve talked a lot about site structures that will lead to a more enjoyable user experience, there are also some quick ways to build off that.</p>
+
+<h3 id="back-button">Back button</h3>
+
+<pre><code>    $(".back").click(function(){
+      window.history.back();
+    });
+</code></pre>
+
+<p>Conversely, you can do the same thing with</p>
+
+<pre><code>    window.history.forward();
+</code></pre>
+
+<p>If there is no forward history, the link will be null.</p>
+
+<p><br /></p>
+
+<h3 id="jquery-toggle-nav-dropdown">jQuery toggle nav dropdown</h3>
+<p>We mentioned toggling buttons last week, but here is the code to go along with the demo where we will toggle subsets of a navigation menu:</p>
+
+<pre><code>    $("#topicsList").hide();
+    $("#topics").click(function(){
+
+    $( "#topicsList" ).toggle();}
+
+    );
+</code></pre>
 </div>
       </li>
     
